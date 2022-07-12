@@ -9,7 +9,11 @@ body, html{
     grid-template-rows: 1fr 5fr auto 1fr;
 }
 
-
+.stick {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
 ul {
     display: flex;
